@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Test from "../components/Test.vue";
+---
+
+<Layout title="Welcome to Astro.">
+	<h1>main page</h1>
+	<a href="/about">about</a>
+	<Test client:load />
+</Layout>
